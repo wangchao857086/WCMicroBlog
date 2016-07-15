@@ -293,6 +293,7 @@
 		7F83469B1D23713300CE5B04 /* launching.mov in Resources */ = {isa = PBXBuildFile; fileRef = 7F8346981D23713300CE5B04 /* launching.mov */; };
 		7F83469C1D23713300CE5B04 /* LaunchingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F83469A1D23713300CE5B04 /* LaunchingViewController.m */; };
 		7F83469F1D23783B00CE5B04 /* CaptchaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F83469E1D23783B00CE5B04 /* CaptchaView.m */; };
+		7FD5E08E1D38C6C70011F391 /* CommonDateTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD5E08D1D38C6C70011F391 /* CommonDateTool.m */; };
 		7FF6E5DD1CD09CA400EB0749 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF6E5B81CD09CA400EB0749 /* AFHTTPRequestOperation.m */; };
 		7FF6E5DE1CD09CA400EB0749 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF6E5BA1CD09CA400EB0749 /* AFHTTPRequestOperationManager.m */; };
 		7FF6E5DF1CD09CA400EB0749 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF6E5BC1CD09CA400EB0749 /* AFHTTPSessionManager.m */; };
@@ -648,6 +649,8 @@
 		7F83469A1D23713300CE5B04 /* LaunchingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchingViewController.m; sourceTree = "<group>"; };
 		7F83469D1D23783B00CE5B04 /* CaptchaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptchaView.h; sourceTree = "<group>"; };
 		7F83469E1D23783B00CE5B04 /* CaptchaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptchaView.m; sourceTree = "<group>"; };
+		7FD5E08C1D38C6C70011F391 /* CommonDateTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonDateTool.h; sourceTree = "<group>"; };
+		7FD5E08D1D38C6C70011F391 /* CommonDateTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonDateTool.m; sourceTree = "<group>"; };
 		7FF6E5B71CD09CA400EB0749 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
 		7FF6E5B81CD09CA400EB0749 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
 		7FF6E5B91CD09CA400EB0749 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
@@ -1454,6 +1457,8 @@
 				7FF6E5FB1CD0CD8200EB0749 /* WCControllerTool.m */,
 				7F34319B1D193F4D00963652 /* MBAccountManager.h */,
 				7F34319C1D193F4D00963652 /* MBAccountManager.m */,
+				7FD5E08C1D38C6C70011F391 /* CommonDateTool.h */,
+				7FD5E08D1D38C6C70011F391 /* CommonDateTool.m */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -1921,6 +1926,7 @@
 				7FF6E5ED1CD09CA400EB0749 /* UIRefreshControl+AFNetworking.m in Sources */,
 				7FF6E5E41CD09CA400EB0749 /* AFURLResponseSerialization.m in Sources */,
 				7F15385D1CC775860068E49B /* MessageViewController.m in Sources */,
+				7FD5E08E1D38C6C70011F391 /* CommonDateTool.m in Sources */,
 				7F3431E11D1BE16500963652 /* MBStatusReweetedFrame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
