@@ -1,0 +1,56 @@
+//
+//  WCMicroBlogPrefix.pch
+//  WCMicroBlog
+//
+//  Created by 王超 on 16/4/27.
+//  Copyright © 2016年 王超. All rights reserved.
+//
+
+#ifndef WCMicroBlogPrefix_pch
+#define WCMicroBlogPrefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* WCMicroBlogPrefix_pch */
+//配置应用信息
+#define kMicroBlogAPPKey  @"9294381"
+#define kMicroBlogAPPSecret  @"072f47fffe278b2eeff1a36c0321cf9f"
+#define kMicroBlogRedirectUri  @"http://articletest.duapp.com/1/index.html"
+#define kMicroBlogHomeDataUrl @"https://api.weibo.com/2/statuses/home_timeline.json"
+#define kMicroBlogPublicDataUrl @"https://api.weibo.com/2/statuses/public_timeline.json"
+//cell计算参数
+//内边距
+#define  MBCellInset 10
+//原创微博昵称字体
+//#define MBStatusOriginalFont [UIFont systemFontOfSize:14]
+#define MBStatusOriginalTimeFont [UIFont systemFontOfSize:12]
+#define MBStatusOriginalSourceFont MBStatusOriginalTimeFont
+#define MBStatusOriginalNameFont [UIFont systemFontOfSize:14]
+#define MBStatusOriginalTextFont [UIFont systemFontOfSize:14]
+#define MBStatusReweetedTextFont MBStatusOriginalTextFont
+#define MBStatusReweetedNameFont MBStatusOriginalNameFont
+
+//头文件
+#import "AFNetworking.h"
+#import "UIView+Extension.h"
+#import "UIImage+Extension.h"
+#import "UIBarButtonItem+Extension.h"
+#import "MBProgressHUD.h"
+#import "MJExtension.h"
+#import "MJRefresh.h"
+#import "UIImageView+WebCache.h"
+//宏定义
+
+#define WCNavigationBarFont [UIFont systemFontOfSize:20]//导航栏字体
+#define kScreen_Height     ([UIScreen mainScreen].bounds.size.height)
+#define kScreen_Width   ([UIScreen mainScreen].bounds.size.width)
+//颜色
+#define WCColor(r,g,b)  [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+#define RED  [UIColor redColor]
+//宏定义NSLog
+#ifdef DEBUG//调试状态
+#define WangChaoLog(...) NSLog(__VA_ARGS__)
+#else //发布状态
+#define WangChaoLog(...)
+#endif
